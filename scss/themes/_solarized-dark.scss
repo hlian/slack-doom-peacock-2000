@@ -1,21 +1,21 @@
 // Solarized color palette
 // Taken from ethanschoonover.com/solarized
-$base03: #002b36;
-$base02: #073642;
+$base03: #2b2a27;
+$base02: #282725;
 $base01: #586e75;
 $base00: #657b83;
 $base0: #839496;
 $base1: #93a1a1;
-$base2: #eee8d5;
+$base2: #ede0ce;
 $base3: #fdf6e3;
-$yellow: #b58900;
+$yellow: #bcd42a;
 $orange: #cb4b16;
-$red: #dc322f;
-$magenta: #d33682;
-$violet: #6c71c4;
-$blue: #268bd2;
-$cyan: #2aa198;
-$green: #859900;
+$red: #ff5d38;
+$magenta: #c678dd;
+$violet: #a9a1e1;
+$blue: #51afef;
+$cyan: #46d9ff;
+$green: #98be65;
 
 // Theme Colors
 $color-base: $base03;
@@ -36,6 +36,7 @@ $color-shade-lightest: lighten($color-base, 5%);
 
 // Font Colors
 $base-font-color: lighten($base1, 5%);
+$base-font-family: -apple-system;
 
 $base-link-color: $blue;
 $base-link-color-active: $red;
