@@ -30,3 +30,9 @@
     }
   }
 }
+
+body {
+  @if global-variable-exists(base-font-family) {
+    font-family: $base-font-family !important;
+  }
+}

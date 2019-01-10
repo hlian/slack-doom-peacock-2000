@@ -19,7 +19,7 @@ $green: #98be65;
 
 // Theme Colors
 $color-base: $base03;
-$color-highlight: $cyan;
+$color-highlight: $yellow;
 
 $color-red: $red;
 $color-green: $green;
@@ -36,7 +36,7 @@ $color-shade-lightest: lighten($color-base, 5%);
 
 // Font Colors
 $base-font-color: lighten($base1, 5%);
-$base-font-family: -apple-system;
+$base-font-family: system-ui;
 
 $base-link-color: $blue;
 $base-link-color-active: $red;
