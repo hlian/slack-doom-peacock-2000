@@ -23,4 +23,10 @@
     doom-peacock, an Emacs theme
 
   • Overrode the Slack font with system-ui
+  
+  <b>Dev Tools</b>
+  
+  • export SLACK_DEVELOPER_MENU=true
+  
+  • open -a /Applications/Slack.app
 </pre>
