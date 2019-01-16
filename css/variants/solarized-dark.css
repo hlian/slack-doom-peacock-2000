@@ -1741,7 +1741,8 @@ textarea[readonly] {
 .c-mrkdwn__subteam--mention,
 .c-mrkdwn__subteam--mention:hover,
 .mention_yellow_bg {
-  color: #bcd42a !important;
+  background: #262522;
+  color: #46d9ff !important;
 }
 
 .c-message:hover .c-message__broadcast_preamble_outer,

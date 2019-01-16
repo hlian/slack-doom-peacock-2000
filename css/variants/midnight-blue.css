@@ -1740,6 +1740,7 @@ textarea[readonly] {
 .c-mrkdwn__subteam--mention,
 .c-mrkdwn__subteam--mention:hover,
 .mention_yellow_bg {
+  background: #181818;
   color: #1793d1 !important;
 }
 
