@@ -1,18 +1,15 @@
 all: clean build
 
-build: default variants
+build: default
 
 clean:
 	rm -rf css
 	mkdir -p css/variants css/raw/variants
 
 default:
-	sass  scss/main.scss css/black.css
-
-variants:
-	for sass in scss/themes/build-variants/*--main.scss; do \
-		theme=`basename $$sass --main.scss`; \
-	sass  $$sass css/variants/$$theme.css; done
+	sass=scss/themes/build-variants/solarized-dark--main.scss; \
+	theme=`basename $$sass --main.scss`; \
+	sass $$sass css/variants/$$theme.css
 
 install:
 	./etc/install.sh

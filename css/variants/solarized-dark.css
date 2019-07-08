@@ -1742,7 +1742,7 @@ textarea[readonly] {
 .c-mrkdwn__subteam--mention:hover,
 .mention_yellow_bg {
   background: #262522;
-  color: #46d9ff !important;
+  color: #bcd42a !important;
 }
 
 .c-message:hover .c-message__broadcast_preamble_outer,
@@ -3247,7 +3247,7 @@ ts-thread .thread_participants {
 }
 
 #unread_msgs_div .day_divider .day_divider_line {
-  border-top-color: #262522;
+  border-top-color: #383733;
 }
 
 .unread_group.marked_as_read .unread_group_header {
@@ -6067,6 +6067,27 @@ ts-jumper ol:not(.keyboard_active) li:hover ts-icon {
   -moz-filter: brightness(0.6) contrast(3) invert(1) sepia(0.5);
   -webkit-filter: brightness(0.6) contrast(3) invert(1) sepia(0.5);
   filter: brightness(0.6) contrast(3) invert(1) sepia(0.5);
+}
+
+.c-files_container .c-message_kit__file__meta {
+  color: #a1adad;
+}
+
+.c-message_kit__background, .p-threads_view__default_background {
+  background: #2b2a27;
+}
+
+.p-threads_view, .p-threads_view .c-channel_name {
+  background: #2b2a27;
+  color: #a1adad;
+}
+
+.p-threads_flexpane__header_channel_name {
+  color: inherit;
+}
+
+.c-icon_button--light, .c-icon_button--light.c-button-unstyled, .c-icon_button--light:link {
+  color: inherit;
 }
 
 nav.top.persistent {

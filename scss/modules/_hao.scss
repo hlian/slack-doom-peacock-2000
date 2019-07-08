@@ -1,0 +1,24 @@
+.c-files_container {
+  .c-message_kit__file__meta {
+    color: $base-font-color;
+  }
+}
+
+.c-message_kit__background, .p-threads_view__default_background {
+  background: $color-base;
+}
+
+.p-threads_view {
+  &, .c-channel_name {
+    background: $color-base;
+    color: $base-font-color;
+  }
+}
+
+.p-threads_flexpane__header_channel_name {
+  color: inherit;
+}
+
+.c-icon_button--light, .c-icon_button--light.c-button-unstyled, .c-icon_button--light:link {
+  color: inherit;
+}
