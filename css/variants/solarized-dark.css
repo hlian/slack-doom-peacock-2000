@@ -6086,6 +6086,15 @@ ts-jumper ol:not(.keyboard_active) li:hover ts-icon {
   background: #2b2a27;
 }
 
+.p-classic_nav__model__title__info {
+  color: #a1adad;
+}
+
+.p-workspace__input .p-message_input_field {
+  background: #2b2a27;
+  color: #a1adad;
+}
+
 .p-threads_flexpane__header_channel_name {
   color: inherit;
 }
