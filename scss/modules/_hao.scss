@@ -15,6 +15,10 @@
   }
 }
 
+.p-workspace {
+  background: $color-base;
+}
+
 .p-threads_flexpane__header_channel_name {
   color: inherit;
 }
@@ -22,3 +26,4 @@
 .c-icon_button--light, .c-icon_button--light.c-button-unstyled, .c-icon_button--light:link {
   color: inherit;
 }
+
